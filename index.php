@@ -1,7 +1,7 @@
 <?php
 
 require_once 'Ecom/System/Autoload/Load.php';
-
+date_default_timezone_set('America/Boise');
 $uri = explode('/', substr($_SERVER['REQUEST_URI'], 1));
 
 $autoload = new Ecom\System\Autoload\Load();

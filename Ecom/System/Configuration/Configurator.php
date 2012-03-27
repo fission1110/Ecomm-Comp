@@ -4,10 +4,10 @@ class Configurator
 {
 	private $configs = [
 		'database' => [
-			'dbname'         => 'ecomm',
+			'dbname'         => 'ecommerce',
 			'dbhost'         => '127.0.0.1',
 			'dbuser'         => 'root',
-			'dbpass'         => 'admin',
+			'dbpass'         => '',
 			'implementation' => 'PDO',
 		],
 		'assets'   => [
